@@ -1,0 +1,305 @@
+.transition-transform(@transition) {
+  -webkit-transition: -webkit-transform @transition;
+     -moz-transition: -moz-transform @transition;
+       -o-transition: -o-transform @transition;
+          transition: transform @transition;
+}
+
+html {
+	overflow: auto;
+}
+
+
+body {
+	padding-top: 10%;
+	background: url("../img/clock.jpg") no-repeat center center fixed;
+	background-size: 100%;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 15px;
+}
+
+div {
+	color: #00ff01;
+}
+
+#row1 {
+	background: black;
+}
+
+.col-xs-1 {
+	text-align: center;
+
+}
+
+.col-xs-1:hover {
+	background: #985A8A;
+}
+
+a {
+	color: black;
+}
+
+div {
+	border-color: black;
+}
+
+a:hover {
+	color: black;
+}
+
+#lcir {
+	background: grey;
+	border-radius: 25%;
+	border-style: solid;
+	border-color: #48DC07;
+	height: 80px;
+	width: 12%;
+	
+}
+
+#scir {
+	background: grey;
+	border-radius: 25%;
+	border-style: solid;
+	border-color: #48DC07;
+	height: 80px;
+	width: 12%;
+	align-self: right;
+	margin-left: 6.5%;
+	
+}
+
+#lcir2 {
+	background: black;
+	border-radius: 25%;
+	border-style: solid;
+	border-color: #48DC07;
+	height: 80px;
+	width: 24%;
+	float: right;
+	padding-left: 36%;
+}
+
+#scir2 {
+	background: black;
+	border-radius: 25%;
+	border-style: solid;
+	border-color: #48DC07;
+	height: 80px;
+	width: 24%;
+	margin-left: 6.5%;
+	float: right;
+	padding-left: 36%;
+}
+
+#row2 {
+	padding: 10px 0 0 20px;
+}
+
+#ltit {
+	text-align: right;
+}
+
+#ltit2 {
+	font-size: 140%;
+	padding-top: 15px;
+	text-align: center;
+	
+}
+
+#rtit2 {
+	font-size: 140%;
+	padding-top: 15px;
+	text-align: center;
+	
+}
+
+#rbor {
+	border-radius: 25%;
+	border-style: solid;
+	border-color: #48DC07;
+	
+	height: 80px;
+}
+
+#lbor {
+	border-radius: 25%;
+	border-style: solid;
+	border-color: #48DC07;
+	height: 80px;
+
+}
+
+
+#display2 {
+	background: black;
+	border-radius: 0%;
+	border-style: solid;
+	border-color: #48DC07;
+	height: 170px;
+	width: 60%;
+	margin-top: 10px;
+	max-width: 960px;
+	float: center;
+	margin-left: 20%;
+
+}
+
+#display2text {
+	font-size: 500%;
+	text-align: center;
+}
+
+#session2 {
+	font-size: 500%;
+	text-align: center;
+	margin-top: -40px;
+}
+
+.container {
+	margin: auto;
+	
+	background-color:rgba(200, 200, 200, 0.8);
+	padding-bottom: 1%;
+}
+
+input {
+	background-color: black;
+	text-align: center;
+	width: 100%;
+	font-size: 150%;
+	height: 100%;
+	border-color: transparent;
+	border-width: 1px;
+	white-space: nowrap;
+	border-radius: 5%;
+}
+
+button {
+	display: inline-block;
+}
+
+#sleft {
+	color: black;
+	background-color: transparent;
+	float: left;
+	height: 90%;
+	margin-left: -18px;
+	margin-top: 4%;
+	padding-bottom: -10px;
+	max-width: 10%;
+	border-color: transparent;
+	border-top-left-radius: 100%;
+	border-bottom-left-radius: 100%;
+}
+
+#sleft:hover {
+	background-color: #48DC07;
+	color: black;
+	overflow: none;
+	
+}
+
+#sleft:active {
+	background-color: transparent;
+	color: red;
+	overflow: none;
+	
+}
+
+#sright {
+	color: black;
+	background-color: transparent;
+	float: right;
+	height: 90%;
+	margin-right: -17px;
+	padding-right: 10px;
+	margin-left: -10px;
+	margin-top: 4%;
+	max-width: 10%;
+	border-color: transparent;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 60%;
+}
+
+#sright:hover {
+	background-color: #48DC07;
+	color: black;
+	overflow: none;
+	
+}
+
+#sright:active {
+	background-color: transparent;
+	color: #48DC07;
+	overflow: none;
+	
+}
+
+#lleft {
+	color: black;
+	background-color: transparent;
+	float: left;
+	height: 90%;
+	margin-left: -18px;
+	margin-top: 4%;
+	max-width: 10%;
+	border-color: transparent;
+	border-top-left-radius: 90%;
+	border-bottom-left-radius: 100%;
+}
+
+#lleft:hover {
+	background-color: #48DC07;
+	color: black;
+	overflow: none;
+	
+}
+
+#lleft:active {
+	background-color: transparent;
+	color: red;
+	overflow: none;
+	
+}
+
+#lright {
+	color: black;
+	background-color: transparent;
+	float: right;
+	height: 90%;
+	margin-right: -17px;
+	padding-right: 10px;
+	margin-left: -10px;
+	margin-top: 4%;
+	max-width: 10%;
+	border-color: transparent;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 60%;
+}
+
+#lright:hover {
+	background-color: #48DC07;
+	color: black;
+	overflow: none;
+	
+}
+
+#lright:active {
+	background-color: transparent;
+	color: #48DC07;
+	overflow: none;
+	
+}
+
+#start {
+	background: black;
+	border-style: none;
+	border-color: transparent;
+}
+
+#reset {
+	background: black;
+	border-style: none;
+	border-color: transparent;
+}
