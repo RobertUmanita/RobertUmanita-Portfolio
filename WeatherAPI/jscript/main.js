@@ -26,7 +26,7 @@ getLocation (function(coords){
   si = (imp - 32) * (5/9); //Celsius
   ico =  data.weather[0].icon;
   console.log(ico);
-  document.getElementById("wicon").innerHTML = '<img src="https://openweathermap.org/img/w/' + ico + '.png"/>';
+  document.getElementById("wicon").innerHTML = '<img src="http://openweathermap.org/img/w/' + ico + '.png"/>';
   document.getElementById("location2").innerHTML = data.weather[0].main; 
   document.getElementById("temperature").innerHTML = Math.round(imp) + "&#8457";
   document.getElementById("clouds").innerHTML = data.clouds.all + "% Cloud Cover";
