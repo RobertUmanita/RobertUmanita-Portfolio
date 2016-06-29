@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Cabin+Sketch' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+ 
+
+
+    <!-- Main content-->
+    <div class="container" id="searchy">
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1">        
+          <div class="panel panel-primary">
+          
+            <form class="form-inline">
+              <div class="row panel-body">
+               <div class="row">
+                  <div class="col-xs-8" id="input2">&nbsp</div>
+                  <div class="col-xs-2" id="input3">&nbsp</div>                  
+                </div>
+                <div class="row">
+                  <div class="col-xs-10" id="input">&nbsp</div>                  
+                </div>
+
+                  
+                <!--  <button class="btn btn-submit" type="submit">
+                    <span class="glyphicon glyphicon-random"></span>
+                  </button> -->
+                <div class="row panel-body" id="lay">
+                  <div class="col-sm-12">
+                    <div class="row panel-body" id="row1">
+                      <button class="btn btn-primary" type="button" onclick="Backspace()">
+                        <span class="">AC</span>
+                      </button>
+                      <button class="btn btn-primary" type="button" onclick="Clear()">
+                        <span class="">CE</span>
+                      </button>
+                      <button class="btn btn-primary" type="button">
+                        <span class="">%</span>
+                      </button>
+                      <button class="btn btn-primary" type="button" id"dividebutton" onclick="Divide()">&#247</button>
+                    </div>
+                    <div class="row panel-body" id="row2">
+                      <button class="btn btn-primary" type="button" onclick="Seven()">
+                        <span class="">7&nbsp</span>
+                      </button>
+                      <button class="btn btn-primary" type="button" onclick="Eight()">
+                        <span class="">8&nbsp</span>
+                      </button>
+                      <button class="btn btn-primary" type="button" onclick="Nine()">
+                        <span class="">9</span>
+                      </button>
+                      <button class="btn btn-primary" type="button" onclick="Multiply()">
+                        <span class="">X</span>
+                      </button>
+                    </div>
+                    <div class="row panel-body" id="row3">
+                      <button class="btn btn-primary" type="button" onclick="Four()">
+                        <span class="">4</span>
+                      </button>
+                      <button class="btn btn-primary" type="button" onclick="Five()">
+                        <span class="">5</span>
+                      </button>
+                      <button class="btn btn-primary" type="button" onclick="Six()">
+                        <span class="">6</span>
+                      </button>
+                      <button class="btn btn-primary" type="button" onclick="Minus()">
+                        <span class="">-</span>
+                      </button>
+                    </div>
+                    <div class="row panel-body" id="row4">
+                      <button class="btn btn-primary" type="button" onclick="One()">
+                        <span class="">1</span>
+                      </button>
+                      <button class="btn btn-primary" type="button" onclick="Two()">
+                        <span class="">2</span>
+                      </button>
+                      <button class="btn btn-primary" type="button" onclick="Three()">
+                        <span class="">3</span>
+                      </button>
+                      
+                    </div>
+                    <div class="row panel-body" id="row5">
+                      <button class="btn btn-primary" type="button" onclick="Zero()">
+                        <span class="">0</span>
+                      </button>
+                      <button class="btn btn-primary" type="button" onclick="Decimal()">
+                        <span class="">.</span>
+                      </button>
+                      <button class="btn btn-primary" type="button" onclick="Equals()">
+                        <span class="">=</span>
+                      </button>
+                      <button class="btn btn-primary" type="button" onclick="Add()" id="adhd">
+                        <span class="">+</span>
+                      </button>
+
+                    </div>
+                  </div>
+                </div>  
+              </div>
+             </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+</html>
