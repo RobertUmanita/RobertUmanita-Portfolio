@@ -20,7 +20,7 @@ getLocation (function(coords){
   $.getJSON("https://maps.googleapis.com/maps/api/geocode/json?latlng=" + lat + "," + lon +"&sensor=false", function(data){
   document.getElementById("location").innerHTML = "Weather for " + data.results[1].formatted_address;  
  });
-   $.getJSON("https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&units=imperial&APPID=0ea1f68bf3876c3a5ef44e72a4d3bdd6", function(data){
+   $.getJSON("https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&units=imperial&APPID=a701a6717e6ae1dc8d449273a3ec3361", function(data){
   console.log(data);
   imp = data.main.temp;
   si = (imp - 32) * (5/9); //Celsius
