@@ -1,0 +1,810 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+   }
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+.bod {
+  -webkit-transform-style: preserve-3d;
+  background: url(../image/first.jpg) no-repeat center center fixed;
+
+  
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  background: url(../image/first.jpg) no-repeat center center fixed;
+
+  
+  width: 100%;
+  min-height: 100%;
+  
+
+
+   }
+
+.main-content {
+
+  top: 0;
+  bottom: 0;
+  padding: 2em 3em; 
+  margin: 0 auto;
+
+}
+
+
+
+.main-content {
+  width: 505px;
+  height: 360px;
+  background-color: rgba(0,0,0, 0.8);
+  right: 0;
+  color: white;
+  border-radius: 10px;
+   }
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8); }
+
+  100% {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8); }
+
+  100% {
+    opacity: 1; } }
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0); }
+
+  100% {
+    opacity: 1; } }
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0); }
+
+  100% {
+    opacity: 1; } }
+#main .anim_element {
+  -webkit-animation-duration: .25s;
+          animation-duration: .25s;
+  -webkit-transition-timing-function: ease-in;
+          transition-timing-function: ease-in;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both; }
+
+#main .anim_element--fadeIn {
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn; }
+
+#main .anim_element--fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+          animation-name: fadeInLeft; }
+
+#main.is-exiting .anim_element {
+  -webkit-animation-direction: alternate-reverse;
+          animation-direction: alternate-reverse; }
+
+
+
+
+
+
+
+#portrait {
+  max-height: 190px;
+  max-width: 120px;
+  background: url(../image/me2.jpg) no-repeat center center fixed;
+  
+  border-radius: 10%;
+}
+
+#info {
+  width: 70%;
+  height: 114%;
+  margin-top: -5%;
+  background: transparent;
+  margin-right: -100px;
+  border-radius: 5px;
+  
+
+}
+
+#portraitsm {
+  display: none;
+  max-width: 30%;
+  float: right;
+}
+
+
+@media only screen and (max-width: 770px) {
+ /*.main-content {
+  width: 60%;
+  height: 200px;
+  margin-left: 20%;
+  background-color: rgba(0,0,0, 0.8);
+  right: 0;
+  color: white; }
+
+ #info {
+  width: 70%;
+  height: 114%;
+  background: transparent;
+  margin-right: 0px;
+  margin-top: -30px;
+  border-radius: 5px;
+}
+
+  #porcon {
+    margin-left: 200px;
+    margin-bottom: -100px;
+    width: 100px;
+    position: inline;
+  }*/
+  
+
+}
+
+
+
+@media only screen and (max-width: 500px) {
+  /*.main-content {
+  width: 60%;
+  height: 200px;
+  margin-left: 15%;
+  background-color: rgba(0,0,0, 0.8);
+  right: 0;
+  color: white; }
+
+  #porcon {
+    margin-left: 110px;
+    margin-bottom: -100px;
+    width: 100px;
+    position: inline;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .main-content {
+  width: 90%;
+  margin-left: -2%;
+  height: 200px;
+  background-color: rgba(0,0,0, 0.8);
+  right: 0;
+  color: white; }
+
+  #porcon {
+    margin-left: 110px;
+    margin-bottom: -100px;
+    width: 100px;
+    position: inline;
+  }*/
+}
+
+
+.about-content {
+
+  top: 0;
+  bottom: 0;
+  padding: 1em 3em; 
+  margin: 15% 0 0 25%;
+}
+
+.about-content {
+  width: 50%;
+  height: 40%;
+  background-color: rgba(0,0,0, 0.8);
+  right: 0;
+  color: white; }
+
+  #porcon2 {
+  width: 50%;
+  
+  margin: -32px 70%;
+}
+
+
+#portrait2 {
+  width: 50%;
+  max-width: 200px;
+  background: url(../image/me2.jpg) no-repeat center center fixed;
+  
+  border-radius: 10%;
+}
+
+/*@media only screen and (max-width: 800px) {
+  #portrait2 { 
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #portrait2 { 
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #portrait2 { 
+    display: none;
+  }
+}
+*/
+nav select {
+  display: none;
+  color: black;
+  max-width: 100%;
+}
+
+@media (max-width: 960px) {
+  nav ul     { display: none; }
+  nav select { display: inline-block; }
+
+}
+
+.cf:before,
+  .cf:after {
+      content: " "; /* 1 */
+      display: table; /* 2 */
+  }
+
+  .cf:after {
+      clear: both;
+  }
+
+  /**
+   * For IE 6/7 only
+   * Include this rule to trigger hasLayout and contain floats.
+   */
+  .cf {
+      *zoom: 1;
+  }
+
+
+
+.m-header {
+  padding: 8.5em 8.5em 4.25em;
+  position: relative;
+}
+
+.m-page {
+  background-color: transparent;
+  color: white;
+  padding: 0px 30px 900px;
+  border-color: transparent;
+
+}
+
+.m-detail-layout {
+  padding-left: 270px;
+}
+.m-detail-layout .m-aside {
+  position: absolute;
+  left: 0;
+  width: 270px;
+  background: url(../image/first.jpg) no-repeat center center fixed;
+}
+
+
+/*
+ * Keyframes
+ */
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@-webkit-keyframes fadeInUp {
+  /* line 1362, /Users/mperez/Sites/smoothstate/source/stylesheets/keyframes.css.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0); }
+
+  /* line 1368, /Users/mperez/Sites/smoothstate/source/stylesheets/keyframes.css.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+
+@keyframes fadeInUp {
+  /* line 1376, /Users/mperez/Sites/smoothstate/source/stylesheets/keyframes.css.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    -ms-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0); }
+
+  /* line 1383, /Users/mperez/Sites/smoothstate/source/stylesheets/keyframes.css.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none; } 
+  }
+
+  @-webkit-keyframes fadeInDown {
+0% {
+opacity: 0;
+-webkit-transform: translateY(-20px);
+}
+
+100% {
+opacity: 1;
+-webkit-transform: translateY(0);
+}
+}
+
+@-moz-keyframes fadeInDown {
+0% {
+opacity: 0;
+-moz-transform: translateY(-20px);
+}
+
+100% {
+opacity: 1;
+-moz-transform: translateY(0);
+}
+}
+
+@-o-keyframes fadeInDown {
+0% {
+opacity: 0;
+-o-transform: translateY(-20px);
+}
+
+100% {
+opacity: 1;
+-o-transform: translateY(0);
+}
+}
+
+@keyframes fadeInDown {
+0% {
+opacity: 0;
+transform: translateY(-20px);
+}
+
+100% {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+.fadeInDown {
+-webkit-animation-name: fadeInDown;
+-moz-animation-name: fadeInDown;
+-o-animation-name: fadeInDown;
+animation-name: fadeInDown;
+}
+
+
+@-webkit-keyframes fadeInRight {
+  /* line 1292, /Users/mperez/Sites/smoothstate/source/stylesheets/keyframes.css.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0); }
+
+  /* line 1298, /Users/mperez/Sites/smoothstate/source/stylesheets/keyframes.css.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+
+@keyframes fadeInRight {
+  /* line 1306, /Users/mperez/Sites/smoothstate/source/stylesheets/keyframes.css.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    -ms-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0); }
+
+  /* line 1313, /Users/mperez/Sites/smoothstate/source/stylesheets/keyframes.css.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none; } }
+
+
+
+/*
+ * CSS Page Transitions
+ * Don't forget to add vendor prefixes!
+ */
+
+/** Basic styles for an animated element */
+.m-scene .scene_element {
+
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+
+  transition-timing-function: ease-in;
+  -webkit-transition-timing-function: ease-in;
+
+}
+
+/** An element that fades in */
+.m-scene .scene_element--fadein {
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+}
+
+/** An element that fades in and slides up */
+.m-scene .scene_element--fadeinup {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+.m-scene .scene_element--fadeindown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+/** An element that fades in and slides from the right */
+.m-scene .scene_element--fadeinright {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight; }
+}
+
+/** Reverse "exit" animations */
+/*.m-scene.is-exiting .scene_element {
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;
+}*/
+.m-scene .scene_element--delayed {
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s; }
+.m-scene.is-exiting .scene_element {
+  -webkit-animation-direction: alternate-reverse;
+  animation-direction: alternate-reverse; }
+/* line 43, /Users/mperez/Sites/smoothstate/source/stylesheets/pageTransitions.css.scss */
+.m-scene.is-exiting .scene_element--delayed {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s; }
+/* line 48, /Users/mperez/Sites/smoothstate/source/stylesheets/pageTransitions.css.scss */
+.m-scene.is-exiting .scene_element--noexiting {
+  -webkit-animation-direction: alternate-reverse;
+  animation-direction: alternate-reverse; }
+
+  .main-content2 {
+
+  top: 0;
+  bottom: 0;
+  padding: 2em 3em; 
+  margin: 1% 0 0 30%;
+}
+
+
+
+.main-content2 {
+  width: 505px;
+  height: 360px;
+  background-color: rgba(0,0,0, 0.8);
+  right: 0;
+  color: white;
+  border-radius: 10px;
+  transition:all 0.5s ;
+  -webkit-transition:all 0.5s ;
+  -o-transition:all 0.5s ;
+  -moz-transition:all 0.5s ;
+
+   }
+
+#navi {
+
+  margin-top: 10px;
+  margin-left: 0px;
+  background: orange;
+  margin-right: 71%;
+  border-radius: 10%;
+
+
+}
+
+.info {
+  float: right;
+  margin-left: 120px;
+  margin-top: -260px;
+
+}
+
+.info h1 {
+  font-size: 33px;
+  
+}
+
+.info p {
+  font-size: 20px;
+  
+}
+
+#navi2 {
+  width: 40%;
+  margin-top: 199.5px;
+  margin-left: 0;
+  z-index: 999;
+  position: absolute;
+}
+
+.info2 {
+  position: absolute;
+  display: none;
+  margin-left: 120px;
+  margin-top: -350px;
+}
+
+.info3 {
+  position: absolute;
+  display: none;
+  margin-left: 100px;
+  margin-top: -350px;
+
+}
+
+.info4 {
+  position: absolute;
+  display: none;
+  margin-left: 120px;
+  margin-top: -260px;
+}
+
+.info4 h1 {
+  font-size: 33px;
+  
+}
+
+#icontainer2 {
+ position: absolute;
+ margin-top: 289.5px;
+ margin-left: 15px;
+ z-index: 1;
+}
+
+.portpic {
+  position: relative;
+  padding-top: 5px;
+  max-height: 200px;
+  max-width: 200px;
+  border-radius: 10px;
+}
+.portheading {
+  text-align: center;
+  margin: -5px 0 20px 0;
+}
+
+.portcol {
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-left: 250px
+}
+.portcol:hover {
+  background-color: rgba(255,255,255, 0.2);
+  
+}
+
+p {
+  margin-top: -10px;
+
+}
+#portfoliocontainer{
+  height: 500px;
+  width: 720px;
+  
+  padding-left: 15px;
+}
+
+.scrollbox {
+  overflow: auto; /* This is changed by enscroll, but must be defined */
+  
+}
+.vertical-track {
+  margin-top: -710px;
+  margin-left: -120px;
+  width: 16px;            /* How wide is the scrollbar going to be? */
+  background-color: transparent; /* What color should the vertical track be? */
+}
+.vertical-handle {
+  width: 8px;            /* How wide is the scrollbar handle? */
+  border-radius: 30%;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: grey;
+  background-color: rgba(255,255,255, 0.1); /* What color should the handle be? */
+}
+
+.portpic {
+  border-style: solid;
+  border-width: 2.5px;
+  border-color: grey;
+  
+}
+
+h4 {
+  font-size: 17px;
+}
+
+.container {
+ padding-top: 10px;
+}
+ul {
+  list-style-type: none;
+  border-radius: 10%;
+  max-width: 125px;
+}
+
+li {
+  margin-left: -49%;
+  padding-left: 40%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black
+}
+
+li:hover {
+  background: lightgrey;
+}
+
+a {
+  background: grey;
+
+}
+a:hover {
+  background: lightgrey;
+}
+
+#list1{
+  border-top-right-radius: 10%;
+  border-top-left-radius: 10%;
+}
+
+#list4{
+  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+}
+
+.edu {
+  list-style-type: none;
+}
+
+
+@media only screen and (max-width: 700px){
+  .portheading {
+      display: none;
+  }
+  .portcol {
+    max-width: 235px;
+    margin-left: 30px;
+    padding: 0 0 0 0;
+  }
+  .vertical-track {
+    margin-left: -360px;
+  }
+}
+
+/* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except iPhone4, 640x960) */    
+@media only screen and (max-width: 500px){
+    .main-content { 
+      width: 90%; 
+      height: 100%;
+      margin: 0 auto;
+    }
+    
+  li {
+    margin-left: -80%;
+  }
+  .info {
+    margin-left: 90px;
+
+  }
+  .info2 {
+    margin-top: -320px;
+    margin-left: 100px;
+    font-size: 11px;
+    width: 75%;
+
+  }
+
+  .info3 {
+    margin-top: -260px;
+
+  }
+  
+  #portrait {
+      max-height: 150px;
+      max-width: 100px;
+    }
+  .portheading {
+      display: none;
+  }
+  .main-content {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .bod {
+    margin: 0 auto;
+  }
+
+  .portcol {
+    max-width: 235px;
+  }
+}
+
+@media only screen and (max-width: 360px){
+  .info {
+    margin-top: -20px;
+  }
+
+  .info2 {
+    margin-top: -10px;
+    margin-left: -50px;
+    font-size: 11px;
+    width: 100%;
+  }
+
+  .info3 {
+    margin-top: 10px;
+    margin-left: -50px;
+  }
+
+  .info4 {
+    margin-top: 10px;
+    margin-left: -50px;
+  }
+
+  #navi {
+      text-align: center;
+      margin-top: -25px;
+      margin-left: -5px;
+      display: inline-block;
+      width: 100%;
+    }
+  #icontainer {
+    
+    margin-left: 0px;
+  }
+  #portrait {
+      max-height: 120px;
+      max-width: 70px;
+      margin-left: 150px;
+      margin-bottom: -100px;
+    }
+  .main-content {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-top: -5px;
+
+  }
+  .vertical-track {
+    margin-left: -800px;
+    margin-top: -150;
+  }
+
+}
