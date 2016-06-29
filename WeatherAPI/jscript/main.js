@@ -20,13 +20,13 @@ getLocation (function(coords){
   $.getJSON("https://maps.googleapis.com/maps/api/geocode/json?latlng=" + lat + "," + lon +"&sensor=false", function(data){
   document.getElementById("location").innerHTML = "Weather for " + data.results[1].formatted_address;  
  });
-   $.getJSON("http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&units=imperial&APPID=0ea1f68bf3876c3a5ef44e72a4d3bdd6", function(data){
+   $.getJSON("https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&units=imperial&APPID=0ea1f68bf3876c3a5ef44e72a4d3bdd6", function(data){
   console.log(data);
   imp = data.main.temp;
   si = (imp - 32) * (5/9); //Celsius
   ico =  data.weather[0].icon;
   console.log(ico);
-  document.getElementById("wicon").innerHTML = '<img src="http://openweathermap.org/img/w/' + ico + '.png"/>';
+  document.getElementById("wicon").innerHTML = '<img src="https://openweathermap.org/img/w/' + ico + '.png"/>';
   document.getElementById("location2").innerHTML = data.weather[0].main; 
   document.getElementById("temperature").innerHTML = Math.round(imp) + "&#8457";
   document.getElementById("clouds").innerHTML = data.clouds.all + "% Cloud Cover";
