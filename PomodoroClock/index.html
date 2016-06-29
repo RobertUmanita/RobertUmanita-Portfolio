@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pomodoro Clock</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body onload="Date();">
+  <div class="container">
+    <div class="row hidden-xs" id="row1">
+      <div class="col-xs-4"></div>
+      <div class="col-xs-2 hidden-xs">BREAK LENGTH</div>
+      <div class="col-xs-2 hidden-xs">SESSION LENGTH</div>
+      <div class="col-xs-4"></div>
+    </div>
+    <div class="row hidden-xs" id="row2">
+      <div class="col-xs-4">
+        <p class="hidden-sm hidden-md hidden-lg" id="ltit">BREAK LENGTH</p>
+      </div>
+      <div class="col-xs-2" id="lcir">
+        <button type="button" id="lleft">-</button>
+        <input placeholder="5:00" onfocus="this.placeholder = ''"></input>
+        <button type="button" id="lright">+</button>        
+      </div>
+      
+      <div class="col-xs-2" id="scir">
+        <button type="button" id="sleft" onclick="sessionSubtract()">-</button>
+        <input placeholder="25:00" onfocus="this.placeholder = ''" id="slength"></input>
+        <button type="button" id="sright" onclick="sessionAdd()">+</button>
+      </div>
+      <button type="button" id="start" onclick="Go()">Start</button>
+      <button type="button" id="reset" onclick="Reset()">Reset</button>
+      <div class="col-xs-4">
+        <p class="hidden-sm hidden-md hidden-lg" id="rtit">SESSION LENGTH</p>
+      </div>
+    </div>
+    <div class="row hidden-sm hidden-md hidden-lg" id="row3">
+      <div class="col-xs-6" id="lbor">
+        <p class="hidden-sm hidden-md hidden-lg" id="ltit2">BREAK LENGTH</p>
+      </div>
+      <div class="col-xs-6" id="lcir2"></div>
+    </div>
+    <div class="row hidden-sm hidden-md hidden-lg" id="row4">
+      <div class="col-xs-6" id="rbor">
+        <p class="hidden-sm hidden-md hidden-lg" id="rtit2">SESSION LENGTH</p>
+      </div>
+      <div class="col-xs-6" id="scir2"></div>
+    </div>
+    <div class="row" id="row5">
+      <div class="col-xs-12" id="display2">
+        <p id="display2text">25:00</p>
+        <p id="session2">SESSION</p>
+      </div>
+    </div>
+  </div>
+  
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+</html>
