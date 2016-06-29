@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TicTacToe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand text-muted" href="file:///C:/Users/Robert/Documents/projects/FCC/WikiViewer/index.html">Sandbox</a>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#" id="newSearch">Search</a></li>
+            <li><a href="#" id="randomSearch">Random</a></li>
+            <li class="dropdown">
+              <a data-toggle="dropdown" data-target="#">Options<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li class="divider"></li>
+                <li><a href="#">4 &amp;5</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div><!-- End navbar -->
+
+
+    <!-- Main content-->
+    <div class="container" id="searchy">
+      <div class="row" id="gamerow0">
+        <a href="#"><div class="col-xs-1 col-xs-offset-4" id="gamebox0">_</div></a>
+        <a href="#"><div class="col-xs-1" id="gamebox1">_</div></a>
+        <a href="#"><div class="col-xs-1" id="gamebox2">_</div></a>
+      </div>
+       <div class="row" id="gamerow1">
+        <a href="#"><div class="col-xs-1 col-xs-offset-4" id="gamebox3">_</div></a>
+        <a href="#"><div class="col-xs-1" id="gamebox4">_</div></a>
+        <a href="#"><div class="col-xs-1" id="gamebox5">_</div></a>
+      </div>
+      <div class="row" id="gamerow2">
+        <a href="#"><div class="col-xs-1 col-xs-offset-4" id="gamebox6">_</div></a>
+        <a href="#"><div class="col-xs-1" id="gamebox7">_</div></a>
+        <a href="#"><div class="col-xs-1" id="gamebox8">_</div></a>
+      </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+</html>
