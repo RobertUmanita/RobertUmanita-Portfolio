@@ -1,0 +1,231 @@
+html {
+	overflow: auto;
+}
+
+
+body {
+	padding-top: 2%;
+	background: url("http://prato-verde.com/media/catalog/options/prato-verde-01_3.jpg");
+
+}
+
+.col-sm-11 {
+ 	float: center;
+	
+}
+
+
+
+
+
+.btn {
+	
+	font-size: 11px;
+	width: 50px;
+	height: 50px;
+	border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+}
+
+.btn:active {
+	box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.container {
+	
+	
+	
+}
+
+#searchy {
+	max-width: 345px;
+	
+	position: relative;
+}
+.row{
+	margin-bottom: -25px;
+}
+#row5 {
+	margin-bottom: 0;
+}
+#lay {
+	margin-left: -10px;
+}
+
+.panel {
+	background: transparent;
+	border-style: none;
+
+}
+
+.form-inline {
+	background: grey;
+	border-style: solid;
+	border-color: #696969;
+	box-shadow: 2.5px 2.5px 1.25px;
+	border-radius: 5%;
+	border-width: 5px;
+}
+
+#display {
+	margin-left: 8%;
+	width: auto;
+}
+
+
+
+
+
+
+h2 {
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 23px;
+}
+
+p {
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 14px;
+	padding-left: 5px;
+}
+
+.panel-body {
+	display: block;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+footer {
+  font-size: 0.75em;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin-top: 10px;
+  margin-bottom: -10px;
+  text-align: center;
+}
+
+#input {
+		width: 200px;
+    text-align: right;
+    margin-left: 40px;
+    background: black;
+    border-top-style: solid;
+    border-top-color: grey;
+    border-top-width: 0.1px;
+    border-left-style: solid;
+		border-left-color: red;
+		border-left-width: 3px; 
+		border-right-style: solid;
+		border-right-color: red;
+		border-right-width: 3px;
+		border-bottom-style: solid;
+		border-bottom-color: blue;
+		border-bottom-width: 3px;   
+    min-height: 24px;
+    height: 1.42857;
+    float: none;
+    clear:both;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    max-width: 200px;
+}
+#input2 {
+		width: 150px;
+		border-top-style: solid;
+		border-top-color: blue;
+		border-top-width: 3px; 
+		border-left-style: solid;
+		border-left-color: red;
+		border-left-width: 3px; 
+    text-align: left;
+    margin-left: 40px;
+    background: black;
+    min-height: 24px;
+    height: 1.42857;
+    border-top-left-radius: 5px;
+    max-width: 150px;
+}
+#input3 {
+	width: 50px;
+	border-top-style: solid;
+	border-top-color: blue;
+	border-top-width: 3px;
+	border-right-style: solid;
+	border-right-color: red;
+	border-right-width: 3px;  
+  text-align: right;    
+  background: black;
+  min-height: 24px;
+  height: 1.42857;
+  border-top-right-radius: 5px;
+  max-width: 50px;
+}
+
+#dividebutton {
+	font-size: 30px;
+}
+
+
+#adhd {
+	padding-top: 24%;
+	padding-bottom: 21%;
+	margin-top: -24%;
+	overflow: none;
+}
+
+span {
+	font-size: 16px;
+}
+
+@media only screen and (max-width: 700px){
+    #input {
+    	display: block;
+    	margin-left: 18%;
+    }
+    #input2 {
+    	display: block;
+    	margin-left: 18%;
+   
+    }
+    #input3 {
+    	
+
+		
+    	display: block;
+    }
+    #lay {
+    	margin-left: 1%;
+    }
+    #row1{
+    	margin-top: 5%;
+    }
+    #row5 {
+    	margin-bottom: 25px;
+    }
+    #searchy {
+    	max-width: 310px;
+    }
+}
+
+@media only screen and (max-height: 400px){
+	.btn {
+	
+	font-size: 11px;
+	width: 50px;
+	height: 35px;
+	}
+
+	#adhd {
+	padding-top: 18%;
+	padding-bottom: 21%;
+	margin-top: -17%;
+	overflow: none;
+}
+    
+}
