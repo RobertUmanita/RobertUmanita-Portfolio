@@ -34,52 +34,52 @@ getLocation (function(coords){
   function init() {
 	  	switch (ico) {
 	    case "01d": //clear sky
-	        document.body.style.background = 'url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/T90MXGQG3X.jpg)';
+	        document.body.style.background = 'url(sunny.jpg)';
 	        break;
 	    case "01n":
-	        document.body.style.background = 'url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/W73SJDWQAJ.jpg)';
+	        document.body.style.background = 'url(night.jpg)';
 	        break;
 	    case "02d": //few clouds
-	        document.body.style.background = 'url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/049T8F3FHZ.jpg)';
+	        document.body.style.background = 'url(partly_cloudy.jpg)';
 	        break;
 	    case "02n":
-	        document.body.style.background = 'url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/F8HFKX3RIW.jpg)';
+	        document.body.style.background = 'url(partly_cloudy_night.jpg)';
 	        break;
 	    case "03d":  //scattered clouds
-	        document.body.style.background = 'url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/CB07FVZTBF.jpg)';
+	        document.body.style.background = 'url(partly_cloudy_night2.jpg)';
 	        break;
 	    case "03n":  //scattered clouds
-	        document.body.style.background = 'url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/CB07FVZTBF.jpg)';
+	        document.body.style.background = 'url(partly_cloudy_night2.jpg)';
 	        break;
 	    case "09d":  //rain showers
-	        document.body.style.background = 'url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/3SEGDBCEQF.jpg)';
+	        document.body.style.background = 'url(rain_showers.jpg)';
 	        break;
 	    case "09n":  //rain showers
-	        document.body.style.background = 'url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/3SEGDBCEQF.jpg)';
+	        document.body.style.background = 'url(rain_showers.jpg)';
 	        break;
 	    case "10d":  //rain
-	        document.body.style.background = 'url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/AWI4TCQWK3.jpg)';
+	        document.body.style.background = 'url(rain.jpg)';
 	        break;
 	    case "10n":  //rain
-	        document.body.style.background = 'url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/AWI4TCQWK3.jpg)';
+	        document.body.style.background = 'url(rain.jpg)';
 	        break;
 	    case "11d":  //thunderstorm
-	        document.body.style.background = 'url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/F39CBA21BE.jpg)';
+	        document.body.style.background = 'url(thunderstorm.jpg)';
 	        break;
 	    case "11n":  //thunderstorm
-	        document.body.style.background = 'url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/F39CBA21BE.jpg)';
+	        document.body.style.background = 'url(thunderstorm.jpg)';
 	        break;
 	    case "13d":  //snow
-	        document.body.style.background = 'url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/S5Q1FQPT24.jpg)';
+	        document.body.style.background = 'url(snow.jpg)';
 	        break;
 	    case "13n":  //snow
-	        document.body.style.background = 'url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/S5Q1FQPT24.jpg)';
+	        document.body.style.background = 'url(snow.jpg)';
 	        break;
 	    case "50d":
-	        document.body.style.background = 'url(http://miriadna.com/desctopwalls/images/max/Fog,-water,-trees.jpg)';
+	        document.body.style.background = 'url(fog.jpg)';
 	        break;
 	    case "50n":
-	        document.body.style.background = 'url(http://miriadna.com/desctopwalls/images/max/Fog,-water,-trees.jpg)';
+	        document.body.style.background = 'url(fog.jpg)';
 	        break;         
 	} 
   	
