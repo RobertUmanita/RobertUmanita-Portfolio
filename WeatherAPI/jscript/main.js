@@ -20,22 +20,21 @@ getLocation (function(coords){
   var cod = coords.split(',');
   lat = cod[0];
   lon = cod[1];
-  alert(lat);  
+    
   $.getJSON("https://maps.googleapis.com/maps/api/geocode/json?latlng=" + lat + "," + lon +"&sensor=false", function(data){
   document.getElementById("location").innerHTML = "Weather for " + data.results[1].formatted_address;  
  });
    $.getJSON("https://api.forecast.io/forecast/a50f59a2e9e0619c7cacecfae00b9827/" + lat + "," + lon + "?callback=?", function(data){
-  console.log(data);
+  
   imp = data.currently.temperature;
   si = (imp - 32) * (5/9); //Celsius
   ico =  data.currently.icon;
   
-  console.log(ico.toString());
+  
   ico = ico.toString();
   
   
-  console.log(data.minutely.summary);
-  console.log(data.hourly.summary);
+ 
   
 
   document.getElementById("temperature").innerHTML = Math.round(imp) + "&#8457";
