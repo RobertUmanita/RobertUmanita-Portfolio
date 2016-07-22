@@ -38,7 +38,7 @@ getLocation (function(coords){
   
 
   document.getElementById("temperature").innerHTML = Math.round(imp) + "&#8457";
-  document.getElementById("clouds").innerHTML = "It will be " + data.minutely.summary.toLowerCase() + "<br><br> It will be " + data.hourly.summary.toLowerCase() + "<br><br> This week: " + data.daily.summary;
+  document.getElementById("clouds").innerHTML = "It will be " + data.minutely.summary.toLowerCase() + "<br><br> Expect " + data.hourly.summary.toLowerCase() + "<br><br> This week: " + data.daily.summary;
 
   function init() {
 	  	if (ico === "clear-day") {
