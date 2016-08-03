@@ -1,0 +1,357 @@
+
+
+
+html {
+	
+}
+
+
+body {
+	padding-top: 2%;
+	background: url("http://prato-verde.com/media/catalog/options/prato-verde-01_3.jpg");
+
+}
+
+.col-sm-11 {
+  position: absolute;
+	margin-bottom: -10%;
+}
+
+#lay {
+	padding-top: 5px;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+#row1 {
+	margin-top: -10%;
+}
+
+#row2 {
+	margin-top: -10%;
+
+}
+#row3 {
+	margin-top: -10%;
+}
+#row4 {
+	margin-top: -10%;
+}
+#row5 {
+	margin-top: -10%;
+	margin-bottom: -16%;
+}
+
+.btn {
+	padding: 7%;
+	font-size: 11px;
+	width: 45%;
+	height: 45%;
+	border: none;
+  	border-style: none;
+  	outline: none;
+  	position: absolute;
+}
+.btn:focus, .btn:active {
+	outline: none;
+}
+
+
+
+#green {
+	margin-left: 3%;
+	margin-top: 3%;
+	position: absolute;
+	border-top-left-radius: 1000px;
+}
+
+#red {
+	margin-left: 52%;
+	margin-top: 3%;
+	position: absolute;
+	border-top-right-radius: 1000px;
+}
+
+#blue {
+	margin-left: 52%;
+	margin-top: 52%;
+	position: absolute;
+	border-bottom-right-radius: 1000px;
+}
+
+#yellow {
+	margin-left: 3%;
+	margin-top: 52%;
+	position: absolute;
+	border-bottom-left-radius: 1000px;
+}
+#green:active {
+	box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  text-decoration: none;
+  outline: none;
+}
+#red:active {
+	box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  text-decoration: none;
+  outline: none;
+}
+#blue:active {
+	box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  text-decoration: none;
+  outline: none;
+}
+#yellow:active {
+	box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  text-decoration: none;
+  outline: none;
+}
+
+
+
+
+.btn2:focus,.btn2:active:focus,.btn2.active:focus,
+.btn2.focus,.btn2:active.focus,.btn2.active.focus {
+    outline: none;
+}
+
+.container {
+	height: auto;
+	width: 40%;
+	margin: 0 auto; /*this will centralize the div, horizontal. so that it is nice looking in the middle on different computer screens. */
+	position: relative;
+
+}
+
+@media only screen and (max-width: 479px){
+    #container2 { width: 30%; }
+    .paned{
+    	border-radius: 0%;
+    }
+
+}
+
+
+.paned {
+	background: transparent;
+	border-style: none;
+	background: #393939;
+	border-style: solid;
+	border-color: #393939;
+	
+	border-radius: 50%;
+	border-width: 5px;
+	height: 500px;
+	width: 500px;
+	position: fixed;
+}
+
+#inner {
+	background: transparent;
+	border-style: none;
+	background: lightgrey;
+	border-style: solid;
+	border-color: lightgrey;
+	
+	border-radius: 50%;
+	border-width: 5px;
+	height: 250px;
+	width: 250px;
+	position: absolute;
+	margin-left: 7%;
+	margin-top: 6%;
+}
+
+#outer {
+	background: transparent;
+	border-style: none;
+	background: #393939;
+	border-style: solid;
+	border-color: #393939;
+	
+	border-radius: 50%;
+	border-width: 5px;
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	margin-top: 20%;
+	margin-left: 20%;
+}
+
+#inner2 {
+	background: transparent;
+	color: silver;
+	border-style: none;
+	background: black;
+	border-style: solid;
+	border-color: lightgrey;
+	
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-width: 0px;
+	height: 240px;
+	width: 240px;
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 0%;
+}
+
+#over {
+	background: transparent;
+	border-style: none;
+	background: silver;
+	border-style: solid;
+	border-color: silver;
+	
+	
+	border-width: 8px;
+	height: 140px;
+	width: 230px;
+	position: absolute;
+	margin-top: 40%;
+	margin-left: 2%;
+	border-bottom-right-radius: 115px;
+	border-bottom-left-radius: 115px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+
+}
+
+
+.form-inline {
+	background: grey;
+	border-style: solid;
+	border-color: #696969;
+	box-shadow: 2.5px 2.5px 1.25px;
+	border-radius: 5%;
+	border-width: 5px;
+}
+h1 {
+	font-family: 'Orbitron', sans-serif;
+}
+
+h2 {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 30px;
+	text-align: right;
+}
+
+h3 {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 15px;
+	text-align: center;
+}
+
+p {
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 14px;
+	padding-left: 5px;
+}
+
+.panel-body {
+	display: inline;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+footer {
+  font-size: 0.75em;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin-top: 10px;
+  margin-bottom: -10px;
+  text-align: center;
+}
+
+#title {
+	text-align: center;
+	font-style: bold;
+	margin-top: 15%;
+	margin-left: 0%;
+}
+
+#onoff {
+	color: black !important;
+	background: black;
+}
+
+@media only screen and (max-width: 479px){
+    #container2 { width: 30%; }
+    .paned{
+    	margin-left: -15%;
+    	border-radius: 10%;
+    	width: 80%;
+    	height: 90%;
+    }
+    #outer {
+    	border-radius: 10%;
+    	width: 200px;
+    	height: 40%;
+    	margin-top: 260px;
+    	margin-left: 20px;
+    }
+    #inner {
+    	border-radius: 10%;
+    	width: 180px;
+    	height: 90%;
+    	margin-top: 0%;
+    	margin-left: 10%;
+    }
+    #inner2 {
+    	border-radius: 10%;
+    	width: 100%;
+    	height: 40%;
+    	margin-top: 0%;
+    }
+    #over {
+    	border-radius: 10%;
+    	width: 80%;
+    	height: 20%;
+    	margin-top: 70px;
+    }
+    .btn{
+    	height: 20%;
+    }
+    #title{
+    	font-size: 18px;
+    }
+
+}
+
+#strbtn {
+	border-radius: 100%;
+	width: 65px;
+
+}
+
+#score {
+	width: 50px;
+	height: 35px;
+	background-color: black;
+	color: red;
+	margin-left: 85px;
+	margin-top: -20px;
+	padding-right: 10px;
+	border-radius: 10%;
+}
+
+#count {
+	margin-top: -15px;
+	margin-left: 8px;
+}
+
+#strict {
+	float: right;
+	margin-top: -60px;
+	margin-right: 10px;
+}
