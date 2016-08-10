@@ -48,8 +48,9 @@ function getRandom() {
 		if (x !== moves[player_counter]) {
 			if (hardmode) {
 				
-				alert("Wrong!");
-				location.reload();
+				alert("Wrong! Reseting game!");
+				Reset();
+				return;
 			} else {
 				alert("Wrong!");
 				com_turn = true;
@@ -191,4 +192,23 @@ function Game() {
 	document.getElementById('scoreh').innerHTML = move_counter;
 	setTimeout(simonMoves(), 5000);	
 	
+}
+
+function Reset() {
+	moves = [];
+	com_turn = true;
+	for (var i = 0; i < 20; i++) {
+	  var move = getRandom();
+	  moves.push(move);
+	}
+	move_counter = 1;
+	your_moves = [];
+	player_counter = 0;
+	your_move;
+	inter = 500;
+	inter_a = 500;
+	inter_b = 1000;
+	document.getElementById("strictbox").disabled = false;
+	document.getElementById('scoreh').innerHTML = move_counter;
+	return;
 }
